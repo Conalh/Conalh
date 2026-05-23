@@ -1,35 +1,21 @@
 # Connor Hickey
 
-Local-only OSS for reviewing how coding agents change what a repo can do — permissions, policies, code reach, task scope, and runtime behavior.
+Working on CLI/GitHub Action tools that review PRs and agent sessions for config drift, policy mismatches, and scope creep. Everything runs against the checked-out repo; nothing is uploaded by default.
 
-**Start here → [agent-gov-demo](https://github.com/Conalh/agent-gov-demo)** — a boring TODO API plus a [rogue PR](https://github.com/Conalh/agent-gov-demo/pull/1) that intentionally triggers all five checks, consolidated by [GovVerdict](https://github.com/Conalh/GovVerdict).
+Demo repo with a PR that exercises the full stack: [agent-gov-demo](https://github.com/Conalh/agent-gov-demo) ([example PR](https://github.com/Conalh/agent-gov-demo/pull/1)).
 
-## Agent-gov suite
+| Repo | Does |
+|------|------|
+| [ScopeTrail](https://github.com/Conalh/ScopeTrail) | Diff agent config files between PR base and head |
+| [PolicyMesh](https://github.com/Conalh/PolicyMesh) | Audit MCP/Claude/Codex configs for contradictions |
+| [CapabilityEcho](https://github.com/Conalh/CapabilityEcho) | Flag network/subprocess/capability signals in code diffs |
+| [TaskBound](https://github.com/Conalh/TaskBound) | Compare stated task to the actual diff |
+| [SessionTrail](https://github.com/Conalh/SessionTrail) | Parse Cursor/Claude/Codex JSONL transcripts |
+| [GovVerdict](https://github.com/Conalh/GovVerdict) | Merge JSON reports from the tools above |
+| [agent-gov-core](https://github.com/Conalh/agent-gov-core) | Shared parsers, `Finding` schema, `mergeFindings` |
 
-| Tool | Catches |
-|------|---------|
-| [**ScopeTrail**](https://github.com/Conalh/ScopeTrail) | Agent permission drift in PRs — MCP, Claude, Codex config |
-| [**PolicyMesh**](https://github.com/Conalh/PolicyMesh) | Contradictory policies across Cursor, Claude, MCP surfaces |
-| [**CapabilityEcho**](https://github.com/Conalh/CapabilityEcho) | Capability drift in code and CI when config did not change |
-| [**TaskBound**](https://github.com/Conalh/TaskBound) | Scope creep — stated task vs. actual diff |
-| [**SessionTrail**](https://github.com/Conalh/SessionTrail) | Risky runtime behavior in agent transcripts |
-| [**GovVerdict**](https://github.com/Conalh/GovVerdict) | One merged review across all of the above |
-| [**agent-gov-core**](https://github.com/Conalh/agent-gov-core) | Shared `Finding` schema and merge logic (`v1.0.0`) |
-
-MIT · no hosted scanner · no telemetry · GitHub Actions + CLI
-
-## Quick install
-
-Copy [`.github/workflows/agent-gov-review.yml`](https://github.com/Conalh/agent-gov-demo/blob/main/.github/workflows/agent-gov-review.yml) from the demo repo, or start with ScopeTrail alone:
-
-```yaml
-- uses: Conalh/ScopeTrail@v0.2.0
-  with:
-    fail-on: none
-```
-
-## Elsewhere
+Example workflow: [agent-gov-demo/.github/workflows/agent-gov-review.yml](https://github.com/Conalh/agent-gov-demo/blob/main/.github/workflows/agent-gov-review.yml).
 
 Pasadena, CA · [@conalhck](https://twitter.com/conalhck)
 
-Also building [fit-ontology](https://github.com/Conalh/fit-ontology) — client intelligence for personal trainers.
+Other: [fit-ontology](https://github.com/Conalh/fit-ontology)
