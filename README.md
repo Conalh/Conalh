@@ -1,6 +1,6 @@
 # Connor Hickey
 
-Working on CLI/GitHub Action tools that review PRs and agent sessions for config drift, policy mismatches, and scope creep. Everything runs against the checked-out repo; nothing is uploaded by default.
+Working on CLI/GitHub Action tools that review PRs and agent sessions for config drift, policy mismatches, scope creep, and live trajectory. Everything runs locally; nothing is uploaded by default.
 
 Demo repo with a PR that exercises the full stack: [agent-gov-demo](https://github.com/Conalh/agent-gov-demo) ([example PR](https://github.com/Conalh/agent-gov-demo/pull/1)).
 
@@ -10,7 +10,8 @@ Demo repo with a PR that exercises the full stack: [agent-gov-demo](https://gith
 | [PolicyMesh](https://github.com/Conalh/PolicyMesh) | Audit MCP/Claude/Codex configs for contradictions |
 | [CapabilityEcho](https://github.com/Conalh/CapabilityEcho) | Flag network/subprocess/capability signals in code diffs |
 | [TaskBound](https://github.com/Conalh/TaskBound) | Compare stated task to the actual diff |
-| [SessionTrail](https://github.com/Conalh/SessionTrail) | Parse Cursor/Claude/Codex JSONL transcripts |
+| [SessionTrail](https://github.com/Conalh/SessionTrail) | Parse Cursor/Claude/Codex JSONL transcripts (PR-time) |
+| [AgentPulse](https://github.com/Conalh/AgentPulse) | Live trajectory verdict TUI for agent sessions (no LLM) |
 | [GovVerdict](https://github.com/Conalh/GovVerdict) | Merge JSON reports from the tools above |
 | [agent-gov-core](https://github.com/Conalh/agent-gov-core) | Shared parsers, `Finding` schema, `mergeFindings` |
 
