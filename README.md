@@ -1,6 +1,6 @@
 # Conal (Connor) Hickey
 
-Local-only CLIs and GitHub Actions that audit AI-agent activity — config drift, capability changes, scope creep, runtime behavior, and live session trajectory. Nothing leaves the machine; every tool is advisory by default.
+Everything here is open source. I build local-first tools for AI-agent governance and [fit-ontology](https://github.com/Conalh/fit-ontology), a client-intelligence layer that turns wearable, intake, and guideline data into explainable trainer decisions.
 
 Pasadena, CA · [@conalhck](https://twitter.com/conalhck)
 
