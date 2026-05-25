@@ -2,7 +2,7 @@
 
 Local-only CLIs and GitHub Actions that audit AI-agent activity — config drift, capability changes, scope creep, runtime behavior, and live session trajectory. Nothing leaves the machine; every tool is advisory by default.
 
-Pasadena, CA Â· [@conalhck](https://twitter.com/conalhck)
+Pasadena, CA · [@conalhck](https://twitter.com/conalhck)
 
 ## agent-gov suite
 
