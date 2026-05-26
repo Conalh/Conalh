@@ -1,6 +1,6 @@
 # Conal (Connor) Hickey
 
-Everything here is open source. I build local-first tools for AI-agent governance and [fit-ontology](https://github.com/Conalh/fit-ontology), a client-intelligence layer that turns wearable, intake, and guideline data into explainable trainer decisions.
+Everything here is open source. I build local-first tools for AI-agent governance, plus a paired health-data toolchain — [fit-ontology](https://github.com/Conalh/fit-ontology) on the trainer side and [recovery-trail](https://github.com/Conalh/recovery-trail) on the athlete side — turning wearable, intake, and guideline data into explainable training decisions.
 
 Pasadena, CA · [@conalhck](https://twitter.com/conalhck)
 
@@ -29,6 +29,9 @@ A layered review stack for AI-agent work: one substrate, five PR-time detectors,
 
 Example workflow: [agent-gov-review.yml](https://github.com/Conalh/agent-gov-demo/blob/main/.github/workflows/agent-gov-review.yml).
 
-## Other
+## Health
 
-- [fit-ontology](https://github.com/Conalh/fit-ontology) — client-intelligence ontology for personal trainers. Unifies wearables, intake, and ACSM guidelines into one queryable model, with an explainable rules-based reasoning layer.
+A paired health-data toolchain. Same reasoning engine on both sides — a deterministic, citation-backed combiner over dual-window trend detection (7-day OLS slope + 28-day EWMA, halflife=10 days) with the noise-suppression rule from Plews, Laursen et al. (2013). No LLM in the decision path.
+
+- [fit-ontology](https://github.com/Conalh/fit-ontology) — the trainer-facing side. Client-intelligence ontology that unifies wearables, intake, and ACSM guidelines into one queryable model with an explainable rules layer. Engine v2 produces a weekly training recommendation per client, traceable back to the exact metric rows that fired each rule.
+- [recovery-trail](https://github.com/Conalh/recovery-trail) — the athlete-facing companion. Drop an Apple Health export in your browser and get a two-week recovery briefing — a heatmap across HRV, RHR, sleep, and load, an ACSM-aligned training verdict, and the exact rules that fired with the raw slope numbers behind each one. Same engine v2 logic, ported to TypeScript. 100% client-side; the file never leaves the tab. [Live demo](https://conalh.github.io/recovery-trail/).
