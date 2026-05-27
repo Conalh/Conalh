@@ -2,7 +2,7 @@
 
 Everything here is open source. I build local-first tools that make complex work inspectable: AI-agent governance, repository sensemaking, and evidence-backed health workflows.
 
-Pasadena, CA - [@conalhck](https://twitter.com/conalhck) - [dev.to/conalh](https://dev.to/conalh) - [LinkedIn](https://www.linkedin.com/in/conal-hickey)
+Pasadena, CA - [@conalhck](https://twitter.com/conalhck) - [dev.to/conalh](https://dev.to/conalh)
 
 ## Best entry points
 
