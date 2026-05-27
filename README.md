@@ -1,6 +1,6 @@
 # Conal (Connor) Hickey
 
-Everything here is open source. I build local-first tools for AI-agent governance, plus a paired health-data toolchain — [fit-ontology](https://github.com/Conalh/fit-ontology) on the trainer side and [recovery-trail](https://github.com/Conalh/recovery-trail) on the athlete side — turning wearable, intake, and guideline data into explainable training decisions.
+Everything here is open source. I build local-first tools for AI-agent governance, software-repo sensemaking, and evidence-backed health workflows. The health side spans trainer intelligence, athlete recovery, nutrition experiments, return-to-play tracking, and academic load planning; the repo tooling side is about making AI-assisted work easier to inspect, constrain, and revive.
 
 Pasadena, CA · [@conalhck](https://twitter.com/conalhck)
 
@@ -29,9 +29,20 @@ A layered review stack for AI-agent work: one substrate, five PR-time detectors,
 
 Example workflow: [agent-gov-review.yml](https://github.com/Conalh/agent-gov-demo/blob/main/.github/workflows/agent-gov-review.yml).
 
+## Repo and review tools
+
+Standalone tools for understanding codebases, reviewing risky changes, and bringing old repos back into motion.
+
+- [overreach](https://github.com/Conalh/overreach) — fast capability scanner for diffs, files, and repos. Flags outbound network calls, subprocess spawns, sensitive-file reads, `curl | sh`, disabled TLS, and hardcoded secrets before they merge.
+- [Project Autopsy](https://github.com/Conalh/project-autopsy) — evidence-backed autopsy reports for stale software repositories: score, verdict, findings, stall hypotheses, revival tasks, and source evidence from the tree, manifests, docs, commits, and dependency signals.
+- [RepoBrief](https://github.com/Conalh/repo-brief) — orientation layer for unfamiliar repos. Turns a public GitHub URL or local path into an architecture map, key-file guide, risk summary, hotspot list, and where-to-start onboarding path.
+
 ## Health
 
-A paired health-data toolchain. Same reasoning engine on both sides — a deterministic, citation-backed combiner over dual-window trend detection (7-day OLS slope + 28-day EWMA, halflife=10 days) with the noise-suppression rule from Plews, Laursen et al. (2013). No LLM in the decision path.
+Evidence-backed health and performance tools. The shared pattern is conservative, explainable decision support: clear inputs, visible rules, downgraded confidence when data is thin, and no medical diagnosis or automatic clearance.
 
 - [fit-ontology](https://github.com/Conalh/fit-ontology) — the trainer-facing side. Client-intelligence ontology that unifies wearables, intake, and ACSM guidelines into one queryable model with an explainable rules layer. Engine v2 produces a weekly training recommendation per client, traceable back to the exact metric rows that fired each rule.
 - [recovery-trail](https://github.com/Conalh/recovery-trail) — the athlete-facing companion. Drop an Apple Health export in your browser and get a two-week recovery briefing — a heatmap across HRV, RHR, sleep, and load, an ACSM-aligned training verdict, and the exact rules that fired with the raw slope numbers behind each one. Same engine v2 logic, ported to TypeScript. 100% client-side; the file never leaves the tab. [Live demo](https://conalh.github.io/recovery-trail/).
+- [Nutrition Experiment Lab](https://github.com/Conalh/nutrition-experiment-lab) — private lab notebook for n-of-1 nutrition experiments. Pick one bounded question, log daily outcomes, and get a transparent readout of what changed, adherence quality, confounders, confidence, and what to test next.
+- [Injury Return-To-Play Tracker](https://github.com/Conalh/injury-return-to-play-tracker) — clinician- and coach-friendly return-to-play workflow for injured athletes: phase progress, symptom trends, functional test evidence, workload tolerance, reports, and explicit human clearance decisions.
+- [Academic Load + Burnout Monitor](https://github.com/Conalh/academic-load-burnout-monitor) — student command center for courses, assignments, check-ins, study sessions, and planning blocks. Produces explainable workload signals and recovery-aware next actions without diagnosing burnout or any mental health condition.
