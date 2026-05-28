@@ -2,7 +2,11 @@
 
 Everything here is open source. I build local-first tools that make complex work inspectable: AI-agent governance, repository sensemaking, and evidence-backed health workflows.
 
-Pasadena, CA - [@conalhck](https://twitter.com/conalhck) - [dev.to/conalh](https://dev.to/conalh)
+**Open to AI-agent infra, developer-tooling, and full-stack roles.**
+
+`TypeScript` · `Rust` · `Python` · `React` · `Node` · `FastAPI`
+
+Pasadena, CA · [@conalhck](https://twitter.com/conalhck) · [dev.to/conalh](https://dev.to/conalh) · [conal.hg@gmail.com](mailto:conal.hg@gmail.com)
 
 ## Best entry points
 
