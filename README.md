@@ -29,7 +29,7 @@ A local-first review stack for AI-assisted software work. The goal is simple: ma
 
 - [ScopeTrail](https://github.com/Conalh/ScopeTrail) - diffs agent config files such as `.claude/settings.json`, `.mcp.json`, and Codex sandbox settings.
 - [PolicyMesh](https://github.com/Conalh/PolicyMesh) - finds contradictions across MCP, Claude, Cursor, VS Code, Codex, and Aider configs.
-- [CapabilityEcho](https://github.com/Conalh/CapabilityEcho) - flags new network calls, subprocesses, `eval`, lifecycle scripts, and workflow-permission signals on added diff lines.
+- [CapabilityEcho](https://github.com/Conalh/CapabilityEcho) - flags new network calls, subprocesses, `eval`, lifecycle scripts, and workflow-permission signals on added diff lines. [Benchmarked](https://github.com/Conalh/CapabilityEcho/tree/main/benchmark) at 100% detection recall / 0% false positives on a labeled 34-PR corpus.
 - [TaskBound](https://github.com/Conalh/TaskBound) - compares the stated task to the actual PR diff and flags likely scope creep.
 - [SessionTrail](https://github.com/Conalh/SessionTrail) - audits Cursor, Claude Code, and Codex transcripts for risky runtime behavior.
 
