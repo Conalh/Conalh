@@ -1,6 +1,6 @@
 # Conal (Connor) Hickey
 
-Everything here is open source. I build local-first tools that make complex work inspectable: AI-agent governance, repository sensemaking, and evidence-backed health workflows.
+Everything here is open source. I build local-first tools that make complex work inspectable: AI-agent governance, agent infrastructure, repository sensemaking, and evidence-backed health workflows.
 
 **Open to AI-agent infra, developer-tooling, and full-stack roles.**
 
@@ -38,6 +38,12 @@ A local-first review stack for AI-assisted software work. The goal is simple: ma
 - [AgentPulse](https://github.com/Conalh/AgentPulse) - classifies live agent sessions as `converging`, `exploring`, `stuck`, `done`, `drifting`, or `idle`. Deterministic, no LLM.
 - [GovVerdict](https://github.com/Conalh/GovVerdict) - ingests reports from the detector suite, dedupes by fingerprint, and renders one consolidated PR verdict.
 - [agent-gov-demo](https://github.com/Conalh/agent-gov-demo) - the sandbox proof repo. Its rogue PR is deliberately titled "fix: typo in README" while tripping every detector.
+
+## Agent infrastructure
+
+Tools that change how an agent works, not just what it ships - local-first, deterministic, and built to drop into any MCP-aware client.
+
+- [TimeCal](https://github.com/Conalh/timecal) - a cross-agent time-calibration corpus served over MCP. It counters the engineer-weeks prior agents inherit from human software timelines by serving real "human-estimated, actually-took" rows before the agent scopes a task. [On PyPI](https://pypi.org/project/timecal/) - `uvx timecal`.
 
 ## Repository intelligence
 
