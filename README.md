@@ -50,7 +50,6 @@ These projects are conservative decision-support tools. They expose inputs, rule
 
 - [fit-ontology](https://github.com/Conalh/fit-ontology) - trainer-facing client intelligence. It unifies wearables, intake, and ACSM guidelines into a queryable model with explainable rules. Engine v2 produces weekly training recommendations traceable back to the exact metric rows that fired each rule.
 - [recovery-trail](https://github.com/Conalh/recovery-trail) - athlete-facing recovery briefing from an Apple Health export. It runs 100% client-side and shows HRV, RHR, sleep, load, ACSM-aligned verdicts, and rule traces. [Live demo](https://conalh.github.io/recovery-trail/).
-- [Nutrition Experiment Lab](https://github.com/Conalh/nutrition-experiment-lab) - private n-of-1 nutrition experiment notebook with adherence tracking, confounder notes, confidence, and transparent next-test suggestions.
+- [Nutrition Experiment Lab](https://github.com/Conalh/nutrition-experiment-lab) - personal n-of-1 nutrition experiment notebook with adherence tracking, confounder notes, confidence, and transparent next-test suggestions.
 - [Injury Return-To-Play Tracker](https://github.com/Conalh/injury-return-to-play-tracker) - clinician- and coach-friendly workflow for phase progress, symptoms, functional test evidence, workload tolerance, reporting, and human clearance decisions.
 - [Academic Load + Burnout Monitor](https://github.com/Conalh/academic-load-burnout-monitor) - student workload planner with explainable pressure signals, check-ins, study sessions, planning blocks, and recovery-aware next actions.
-- [Client Intake Decision Engine Builder](https://github.com/Conalh/client-intake-decision-engine-builder) - tenant-scoped intake forms, decision rules, review queues, and reports.
