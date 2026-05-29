@@ -39,6 +39,10 @@ A local-first review stack for AI-assisted software work. The goal is simple: ma
 - [GovVerdict](https://github.com/Conalh/GovVerdict) - ingests reports from the detector suite, dedupes by fingerprint, and renders one consolidated PR verdict.
 - [agent-gov-demo](https://github.com/Conalh/agent-gov-demo) - the sandbox proof repo. Its rogue PR is deliberately titled "fix: typo in README" while tripping every detector.
 
+**Policy enforcement**
+
+- [warden](https://github.com/Conalh/warden) - a policy DSL engine in Rust that decides whether an agent action is `allow`, `deny`, or `ask`. Same family as AWS Cedar / OPA-Rego, with a recursive-descent + Pratt parser, glob matcher, and rustc-style diagnostics - no parser generator, zero dependencies.
+
 ## Agent infrastructure
 
 Tools that change how an agent works, not just what it ships - local-first, deterministic, and built to drop into any MCP-aware client.
