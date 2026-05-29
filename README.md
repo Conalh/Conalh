@@ -10,10 +10,10 @@ Pasadena, CA · [@conalhck](https://twitter.com/conalhck) · [dev.to/conalh](htt
 
 ## Best entry points
 
-- [agent-gov-demo](https://github.com/Conalh/agent-gov-demo) - a deliberately rogue PR that trips the full agent-gov suite at once.
-- [agent-gov-core](https://github.com/Conalh/agent-gov-core) - the shared substrate: canonical findings, report merging, parsers, schemas, and zero runtime deps.
+- [overreach](https://github.com/Conalh/overreach) - Rust capability scanner for diffs, files, and repos; catches network calls, subprocesses, sensitive-file reads, `curl | sh`, disabled TLS, and hardcoded secrets.
+- [PolicyMesh](https://github.com/Conalh/PolicyMesh) - finds contradictions across MCP, Claude, Cursor, VS Code, Codex, and Aider configs.
 - [AgentPulse](https://github.com/Conalh/AgentPulse) - a local terminal dashboard for live AI-agent trajectory verdicts.
-- [RepoBrief](https://github.com/Conalh/repo-brief) - turns an unfamiliar repo into an architecture map, hotspot list, risk summary, and onboarding path.
+- [ScopeTrail](https://github.com/Conalh/ScopeTrail) - diffs agent config files such as `.claude/settings.json`, `.mcp.json`, and Codex sandbox settings.
 - [fit-ontology](https://github.com/Conalh/fit-ontology) - trainer-facing client intelligence from wearables, intake, and ACSM-aligned rules.
 - [recovery-trail](https://github.com/Conalh/recovery-trail) - client-side Apple Health recovery analysis with a live demo: https://conalh.github.io/recovery-trail/
 
