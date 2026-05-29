@@ -41,7 +41,7 @@ A local-first review stack for AI-assisted software work. The goal is simple: ma
 
 **Policy enforcement**
 
-- [warden](https://github.com/Conalh/warden) - a policy DSL engine in Rust that decides whether an agent action is `allow`, `deny`, or `ask`. Same family as AWS Cedar / OPA-Rego, with a recursive-descent + Pratt parser, glob matcher, and rustc-style diagnostics - no parser generator, zero dependencies.
+- [warden](https://github.com/Conalh/warden) - a policy DSL engine in Rust that decides whether an agent action is `allow`, `deny`, or `ask`, and streams those verdicts as JSON over stdin/stdout for an agent's tool-use loop. Same family as AWS Cedar / OPA-Rego, with a recursive-descent + Pratt parser, glob matcher, static unreachable-rule detection, and rustc-style diagnostics - no parser generator, zero dependencies. [Live playground](https://conalh.github.io/warden/).
 
 ## Agent infrastructure
 
