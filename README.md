@@ -54,7 +54,7 @@ Tools that change how an agent works, not just what it ships - local-first, dete
 Standalone tools for understanding codebases, reviewing risky changes, finding documentation drift, and bringing stale repos back into motion.
 
 - [RepoBrief](https://github.com/Conalh/repo-brief) - orientation layer for unfamiliar repos: architecture map, key files, risk summary, hotspots, run commands, and where to start.
-- [Project Autopsy](https://github.com/Conalh/project-autopsy) - evidence-backed autopsy reports for stale repositories: score, verdict, findings, stall hypotheses, revival tasks, and source evidence.
+- [Project Autopsy](https://github.com/Conalh/project-autopsy) - evidence-backed autopsy reports for stale repositories: score, verdict, findings, stall hypotheses, revival tasks, and source evidence. Full-stack TypeScript monorepo - a CLI plus a Next.js report UI and API over one deterministic, CI-tested analysis core; ingests local paths and public or private GitHub repos.
 - [Docs Debt Radar](https://github.com/Conalh/docs-debt-radar) - scans repositories for stale, missing, and drifting documentation claims.
 - [overreach](https://github.com/Conalh/overreach) - Rust capability scanner for diffs, files, and repos; catches network calls, subprocesses, sensitive-file reads, `curl | sh`, disabled TLS, and hardcoded secrets.
 
