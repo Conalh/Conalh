@@ -74,6 +74,8 @@ flowchart TB
 - **[AgentPulse](https://github.com/Conalh/AgentPulse)** - classifies live agent sessions as converging, exploring, stuck, done, drifting, or idle.
 - **[agent-gov-demo](https://github.com/Conalh/agent-gov-demo)** - the sandbox proof repo. Its rogue PR is deliberately titled "fix: typo in README" while tripping every detector at once.
 
+**Field-tested on a real system.** Beyond the synthetic agent-gov-demo, I applied the whole stack to a real open-source background-agent coding platform I did not write: threat-modeled its authorization model, then ran runtime MCP policy enforcement, credential-broker authorization, and a pre-PR capability gate against it. The integration also surfaced, and I fixed, a cross-component bug in the suite itself. Runnable, anonymized writeup: **[agent-gov-fieldtest](https://github.com/Conalh/agent-gov-fieldtest)**.
+
 ## Agent infrastructure
 
 - **[TimeCal](https://github.com/Conalh/timecal)** - a cross-agent time-calibration corpus served over MCP. It serves real "human-estimated, actually-took" rows before an agent scopes a task, countering the engineer-weeks prior agents inherit from human software timelines. [On PyPI](https://pypi.org/project/timecal/) - uvx timecal.
