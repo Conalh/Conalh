@@ -27,6 +27,8 @@ Open to AI-agent infrastructure/safety, developer-tooling, and full-stack roles.
 
 A local-first stack with one job per tool and one shared schema, so the pieces compose instead of overlap: **decide → enforce → detect → consolidate → observe**. There is no LLM in the decision path.
 
+**Full walkthrough:** [AGENT_GOVERNANCE_STACK.md](AGENT_GOVERNANCE_STACK.md) — the whole suite end to end, with a diagram, a failure-mode map, and an adoption path.
+
 | Tool | Role |
 |---|---|
 | **[warden](https://github.com/Conalh/warden)** | **decide** — allow / deny / ask policy engine (Rust, zero-dependency). |
