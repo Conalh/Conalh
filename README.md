@@ -19,9 +19,9 @@ Open to AI-agent infrastructure/safety, developer-tooling, and full-stack roles.
 | **[warden](https://github.com/Conalh/warden)** | Rust policy DSL engine that decides allow / deny / ask for agent actions. Zero-dependency core. [Live playground](https://conalh.github.io/warden/). |
 | **[barbican](https://github.com/Conalh/barbican)** | MCP stdio proxy that binds warden's verdicts before a tool call reaches the server. |
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time scanner for executable capability drift — new network, subprocess, eval, and lifecycle signals on the exact added lines. |
-| **[TaskBound](https://github.com/Conalh/TaskBound)** | Compares the stated task to the actual PR diff and flags scope creep. |
 | **[project-autopsy](https://github.com/Conalh/project-autopsy)** | Evidence-backed autopsy reports for stale repos: findings, stall hypotheses, and revival tasks. Full-stack TypeScript. |
 | **[recovery-trail](https://github.com/Conalh/recovery-trail)** | 100% client-side recovery briefing from an Apple Health export, with ACSM-aligned verdicts and full rule traces. [Live demo](https://conalh.github.io/recovery-trail/). |
+| **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Client intelligence layer for personal trainers — wearables, intake, and ACSM guidelines unified into one explainable, rules-based ontology. [Live demo](https://fit-ontology.fly.dev). |
 
 ## Agent governance stack
 
