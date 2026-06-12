@@ -20,8 +20,9 @@ Open to AI-agent infrastructure/safety, developer-tooling, and full-stack roles.
 | **[barbican](https://github.com/Conalh/barbican)** | MCP stdio proxy that binds warden's verdicts before a tool call reaches the server. |
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time scanner for executable capability drift — new network, subprocess, eval, and lifecycle signals on the exact added lines. |
 | **[project-autopsy](https://github.com/Conalh/project-autopsy)** | Evidence-backed autopsy reports for stale repos: findings, stall hypotheses, and revival tasks. Full-stack TypeScript. |
+| **[ehr-backend](https://github.com/Conalh/ehr-backend)** | Synthetic-only clinical records API in Kotlin / Spring Boot / Postgres — FHIR R4, patient-compartment authorization, a deterministic policy spine, and append-only audit + provenance. |
 | **[recovery-trail](https://github.com/Conalh/recovery-trail)** | 100% client-side recovery briefing from an Apple Health export, with ACSM-aligned verdicts and full rule traces. [Live demo](https://conalh.github.io/recovery-trail/). |
-| **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Client intelligence layer for personal trainers — wearables, intake, and ACSM guidelines unified into one explainable, rules-based ontology. [Live demo](https://fit-ontology.fly.dev). |
+| **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Client intelligence layer for personal trainers — wearables, intake, and ACSM guidelines unified into one explainable, rules-based ontology. |
 
 ## Agent governance stack
 
