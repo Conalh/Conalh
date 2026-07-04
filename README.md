@@ -19,6 +19,7 @@ Open to AI-agent infrastructure/safety, developer-tooling, and full-stack roles.
 | Project | What it does |
 |---|---|
 | **[workstream-continuity-design](https://github.com/Conalh/workstream-continuity-design)** | Public research edition and design bible for Workstream Continuity Design: recovering operating state across concurrent human and AI workstreams. |
+| <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" width="36"> **[Skunky](https://github.com/Conalh/Skunky)** | Local-first compartmentalized LLM work: sanitized worker packets, broker-private handles, hostile artifact intake, passphrase-wrapped local keystore, and CI-backed verification. |
 | **[warden](https://github.com/Conalh/warden)** | Rust policy DSL engine that decides allow / deny / ask for agent actions. Zero-dependency core. [Live playground](https://conalh.github.io/warden/). |
 | **[barbican](https://github.com/Conalh/barbican)** | MCP stdio proxy that binds warden's verdicts before a tool call reaches the server. |
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time scanner for executable capability drift — new network, subprocess, eval, and lifecycle signals on the exact added lines. |
