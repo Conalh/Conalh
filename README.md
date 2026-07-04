@@ -23,8 +23,9 @@ I build deterministic, local-first tools for governing AI agents: policy engines
 - **Evidence-backed health/training workflows** — conservative decision support that exposes inputs, rules, and evidence. Not diagnosis, not treatment.
 
 Burbank, CA · TypeScript · Rust · Python · React · Node · FastAPI
+
 GitHub [@Conalh](https://github.com/Conalh) · X [@conalhck](https://x.com/conalhck) · [dev.to/conalh](https://dev.to/conalh) · [conal.hg@gmail.com](mailto:conal.hg@gmail.com)
-Open to AI-agent infrastructure/safety, developer-tooling, and full-stack roles.
+
 
 ## Start here
 
