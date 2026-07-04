@@ -3,7 +3,7 @@
 ### Currently building
 
 <a href="https://github.com/Conalh/Skunky">
-  <img src="https://raw.githubusercontent.com/Conalh/Skunky/main/docs/assets/skunky-logo.png" alt="Skunky" width="96" align="left">
+  <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" alt="Skunky" width="96" align="left">
 </a>
 
 **[Skunky](https://github.com/Conalh/Skunky)** — a local-first compartmentalized LLM work system. 🦨
@@ -32,7 +32,7 @@ GitHub [@Conalh](https://github.com/Conalh) · X [@conalhck](https://x.com/conal
 | Project | What it does |
 |---|---|
 | **[workstream-continuity-design](https://github.com/Conalh/workstream-continuity-design)** | Public research edition and design bible for Workstream Continuity Design: recovering operating state across concurrent human and AI workstreams. |
-| <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" width="36"> **[Skunky](https://github.com/Conalh/Skunky)** | Local-first compartmentalized LLM work: sanitized worker packets, broker-private handles, hostile artifact intake, passphrase-wrapped local keystore, and CI-backed verification. |
+| **[Skunky](https://github.com/Conalh/Skunky)** | Local-first compartmentalized LLM work: sanitized worker packets, broker-private handles, hostile artifact intake, passphrase-wrapped local keystore, and CI-backed verification. |
 | **[warden](https://github.com/Conalh/warden)** | Rust policy DSL engine that decides allow / deny / ask for agent actions. Zero-dependency core. [Live playground](https://conalh.github.io/warden/). |
 | **[barbican](https://github.com/Conalh/barbican)** | MCP stdio proxy that binds warden's verdicts before a tool call reaches the server. |
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time scanner for executable capability drift — new network, subprocess, eval, and lifecycle signals on the exact added lines. |
