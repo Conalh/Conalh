@@ -3,7 +3,7 @@
 ### Currently building
 
 <a href="https://github.com/Conalh/Skunky">
-  <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" alt="Skunky" width="96" align="left">
+  <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" alt="Skunky" width="64" align="left">
 </a>
 
 **[Skunky](https://github.com/Conalh/Skunky)** — a local-first compartmentalized LLM work system. 🦨
