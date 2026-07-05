@@ -6,8 +6,8 @@
   <img src="assets/skunky-favicon-transparent.png" alt="Skunky logo" alt="Skunky" width="64" align="left">
 </a>
 
-**[Skunky](https://github.com/Conalh/Skunky)** — a local-first compartmentalized LLM work system.
-Hand _bounded_, _sanitized_ work to untrusted LLM workers — without handing them your secrets.
+**[Skunky](https://github.com/Conalh/Skunky)** - a local-first compartmentalized LLM work system.
+Hand _bounded_, _sanitized_ work to untrusted LLM workers - without handing them your secrets.
 Encrypted artifacts, single-use handles, tamper-evident audit chains, cumulative disclosure budgets.
 
 <br clear="left">
