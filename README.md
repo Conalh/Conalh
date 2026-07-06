@@ -29,7 +29,6 @@ GitHub [@Conalh](https://github.com/Conalh) · X [@conalhck](https://x.com/conal
 
 | Project | What it does |
 |---|---|
-| **[workstream-continuity-design](https://github.com/Conalh/workstream-continuity-design)** | Public research edition and design bible for Workstream Continuity Design: recovering operating state across concurrent human and AI workstreams. |
 | **[Skunky](https://github.com/Conalh/Skunky)** | Local-first compartmentalized LLM work: sanitized worker packets, broker-private handles, hostile artifact intake, passphrase-wrapped local keystore, and CI-backed verification. |
 | **[warden](https://github.com/Conalh/warden)** | Rust policy DSL engine that decides allow / deny / ask for agent actions. Zero-dependency core. [Live playground](https://conalh.github.io/warden/). |
 | **[barbican](https://github.com/Conalh/barbican)** | MCP stdio proxy that binds warden's verdicts before a tool call reaches the server. |
