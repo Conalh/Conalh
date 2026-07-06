@@ -12,8 +12,6 @@ Encrypted artifacts, single-use handles, tamper-evident audit chains, cumulative
 
 <br clear="left">
 
-**Featured:** [Workstream Continuity Design](https://github.com/Conalh/workstream-continuity-design) - a public research/design bible for keeping live human and AI workstreams supervisable, resumable, and safe across context switches.
-
 I build deterministic, local-first tools for governing AI agents: policy engines, MCP runtime enforcement, PR-time drift scanners, transcript review, and evidence-backed reports. I also apply the same design style to repository analysis and conservative health/training decision-support tools.
 
 **What I build**
