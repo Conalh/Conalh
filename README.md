@@ -1,12 +1,13 @@
 # Conal Hickey
 
-I build open-source, deterministic, local-first tools for AI-agent security and governance, repository analysis, and evidence-backed health/training decision support.
+I build open-source, deterministic, local-first tools for AI-agent security and governance, repository analysis, learning, and evidence-backed health/training decision support.
 
 ## Selected work
 
 | Project | What it demonstrates |
 |---|---|
 | **[warden](https://github.com/Conalh/warden)** | A zero-dependency Rust policy DSL with a [live WASM playground](https://conalh.github.io/warden/). |
+| **[Concourse](https://github.com/Conalh/Concourse)** | A local-first learning suite with browser and Tauri desktop shells, validated portable course packs, retrieval practice, and a downloadable [Logic Foundations pack](https://github.com/Conalh/Concourse/releases/tag/v0.1.0). |
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time detection of new network, subprocess, eval, lifecycle, and workflow-permission signals on exact added lines. |
 | **[recovery-trail](https://github.com/Conalh/recovery-trail)** | Client-side Apple Health recovery analysis with transparent rule traces and a [live demo](https://conalh.github.io/recovery-trail/). |
 | **[Docs Debt Radar](https://github.com/Conalh/docs-debt-radar)** | Evidence-backed documentation drift scanner with a local CLI, GitHub Action, and static report viewer. |
