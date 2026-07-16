@@ -25,18 +25,6 @@ Its local broker treats returned artifacts as hostile, enforces disclosure budge
 | **[recovery-trail](https://github.com/Conalh/recovery-trail)** | Client-side Apple Health recovery analysis with transparent rule traces and a [live demo](https://conalh.github.io/recovery-trail/). |
 | **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Wearable and intake data unified into an explainable trainer-facing ontology with [product screenshots](https://github.com/Conalh/fit-ontology#screenshots). |
 
-## Agent governance
-
-The suite separates policy decisions, runtime enforcement, PR-time detection, transcript review, and consolidated verdicts. There is no LLM in the governance decision path.
-
-**decide → enforce → detect → consolidate → observe**
-
-[Read the full architecture and adoption path](AGENT_GOVERNANCE_STACK.md).
-
-## More projects
-
-Browse the [complete project catalog](PROJECTS.md), including repository-analysis tools, supply-chain experiments, health/training workflows, and the full agent-governance suite.
-
 ## Working principles
 
 - **Deterministic first:** important verdicts are reproducible and inspectable.
