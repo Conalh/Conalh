@@ -13,6 +13,7 @@ I build open-source, deterministic, local-first tools for software supply-chain 
 | **[CapabilityEcho](https://github.com/Conalh/CapabilityEcho)** | PR-time detection of new network, subprocess, eval, lifecycle, and workflow-permission signals on exact added lines. |
 | **[recovery-trail](https://github.com/Conalh/recovery-trail)** | Client-side Apple Health recovery analysis with transparent rule traces and a [live demo](https://conalh.github.io/recovery-trail/). |
 | **[Docs Debt Radar](https://github.com/Conalh/docs-debt-radar)** | Evidence-backed documentation drift scanner with a local CLI, GitHub Action, and static report viewer. |
+| **[Project Autopsy](https://github.com/Conalh/project-autopsy)** | Repository forensics that turns manifests, docs, commit history, and dependency signals into cited stall diagnoses and practical revival plans through a local CLI and web UI. |
 | **[RepoBrief](https://github.com/Conalh/repo-brief)** | Evidence-backed repository orientation: architecture, hotspots, run commands, and reading paths through a CLI, web app, and MCP server. |
 | **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Wearable and intake data unified into an explainable trainer-facing ontology with [product screenshots](https://github.com/Conalh/fit-ontology#screenshots). |
 
