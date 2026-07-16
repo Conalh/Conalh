@@ -15,7 +15,7 @@ I build open-source, deterministic, local-first tools for software supply-chain 
 | **[Docs Debt Radar](https://github.com/Conalh/docs-debt-radar)** | Evidence-backed documentation drift scanner with a local CLI, GitHub Action, and static report viewer. |
 | **[Project Autopsy](https://github.com/Conalh/project-autopsy)** | Repository forensics that turns manifests, docs, commit history, and dependency signals into cited stall diagnoses and practical revival plans through a local CLI and web UI. |
 | **[RepoBrief](https://github.com/Conalh/repo-brief)** | Evidence-backed repository orientation: architecture, hotspots, run commands, and reading paths through a CLI, web app, and MCP server. |
-| **[fit-ontology](https://github.com/Conalh/fit-ontology)** | Wearable and intake data unified into an explainable trainer-facing ontology with [product screenshots](https://github.com/Conalh/fit-ontology#screenshots). |
+| **[fit-ontology](https://github.com/Conalh/fit-ontology)** | A local-first weekly coaching brief that turns wearable, session, and intake data into cited, overrideable decisions with calibration history; [v0.6.0 release](https://github.com/Conalh/fit-ontology/releases/tag/v0.6.0). |
 
 ## Working principles
 
